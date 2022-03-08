@@ -82,3 +82,5 @@ exc01_csXXXXXX.zip
 ```
 
 **Do not forget to mark the exercises solved after uploading your solution!**
+
+![Tally List](images/tally_list.png)

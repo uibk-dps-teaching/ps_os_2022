@@ -19,7 +19,7 @@ It is therefore a good idea to get accustomed to a few basic commands.
 We will gradually introduce new commands and concepts over the semester.
 
 For now you should teach yourself how to do the following tasks.
-Introductory slides from the previous year are provided, but you are free to use any tutorial you find.
+Introductory [slides from the previous year](../lab01/history_and_shell.pdf) are provided, but you are free to use any tutorial you find.
 
 - Connecting to ZID-GPL via `ssh`
   - See [LPCCS System](https://www.uibk.ac.at/zid/systeme/linux/)

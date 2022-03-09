@@ -6,6 +6,12 @@ The easiest way of ensuring this is by developing on ZID-GPL directly, either th
 Note that the default version of the GCC compiler present on ZID-GPL is _extremely_ outdated.
 You may load a newer version by calling `module load gcc/9.2.0`.
 
+It appears as there is a bug where man pages cannot be viewed after loading a module.
+This has been reported to ZID and be fixed (hopefully) soon.
+In the meantime please use the following command to work around this issue:
+
+`export MANPATH=":$MANPATH"`
+
 ## Connecting to ZID-GPL via SSH
 
 **NOTE**: You have to be inside the University network to be able to connect

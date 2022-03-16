@@ -85,3 +85,7 @@ exc02_csXXXXXX.zip
     ├── even.c
     └── solution.txt
 ```
+
+**Do not forget to mark the exercises solved after uploading your solution!**
+
+![Tally List](images/tally_list.png)

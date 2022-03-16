@@ -41,8 +41,8 @@ What difference do you notice between `SIGTERM` and `SIGKILL`?
 
 What happens when you press `CTRL + c` while the program is running?
 
-*Note:* In order to use `sigaction` and `usleep` you have to define the `_POSIX_C_SOURCE` feature test macro and set it to a value `>= 200809L`.
-This can be done by adding the compile flag `-D_POSIX_C_SOURCE=200809L`.
+*Note:* In order to use `sigaction` and `usleep` you have to define `_POSIX_C_SOURCE` and `_BSD_SOURCE` feature test macros.
+This can be done by adding the compile flag `-D_POSIX_C_SOURCE -D_BSD_SOURCE`.
 See the `feature_test_macros(7)` man page for more information.
 
 ## Task 3

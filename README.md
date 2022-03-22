@@ -15,6 +15,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2022-03-09 | -               |                               | C recap slides |
 | 2022-03-16 | [1](exercise01) | Self-assessment, shell        |                |
 | 2022-03-23 | [2](exercise02) | Env vars, signals, exit codes |                |
+| 2022-03-30 | [3](exercise03) | Fork, syscalls, shell scripts |                |
 
 ## Guidelines
 

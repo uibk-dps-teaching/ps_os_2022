@@ -13,7 +13,7 @@ assert_installed()
 assert_installed zipinfo
 assert_installed diff
 
-diff --side-by-side --left-column - <(zipinfo -1 "$1" | sort) <<-EOF && true
+diff --side-by-side --left-column - <(zipinfo -1 "$1" | sort -f) <<-EOF && true
 	task1/
 	task1/Makefile
 	task1/solution.txt

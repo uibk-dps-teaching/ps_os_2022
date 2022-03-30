@@ -18,6 +18,7 @@ diff --side-by-side --left-column - <(zipinfo -1 "$1" | sed '/\/$/d' | sort -f) 
 	task2/ls_grep_wc.c
 	task2/ls_wc.c
 	task2/Makefile
+	task2/solution.txt
 	task3/Makefile
 	task3/task3_client.c
 	task3/task3_server.c

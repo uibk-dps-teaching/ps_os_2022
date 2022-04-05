@@ -17,6 +17,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2022-03-23 | [2](exercise02) | Env vars, signals, exit codes |                |
 | 2022-03-30 | [3](exercise03) | Fork, syscalls, shell scripts |                |
 | 2022-04-06 | [4](exercise04) | Permissions, pipes            |                |
+| 2022-04-27 | [5](exercise05) | Shared memory, message queues |                |
 
 ## Guidelines
 

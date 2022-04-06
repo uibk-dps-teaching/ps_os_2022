@@ -53,6 +53,7 @@ Implement the same program as before.
 However this time, ensure that the consumer only reads each value in `[1, N]` exactly once from the ring buffer.
 Likewise, ensure that the producer only overwrites values in the ring buffer that have already been read by the consumer.
 Use two semaphores to implement this behavior.
+You _must not_ use any other synchronization mechanisms (i.e. mutexes, atomics, etc).
 Your program should now always compute the correct result.
 
 **Important**: Make sure that the producer and consumer can perform work on the ring buffer _concurrently_, i.e., the semaphores should be used for _counting_.

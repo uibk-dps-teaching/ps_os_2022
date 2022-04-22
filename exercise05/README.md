@@ -140,8 +140,8 @@ exc05_csXXXXXX.zip
 │   └── solution.txt
 └── task3/
     ├── Makefile
-    ├── task3_print.c
-    └── task3_print_server.c
+    ├── task3_printer.c
+    └── task3_printer_server.c
 ```
 
 - [ ] Read and understand [Exercise Sheet 3 Feedback](../exercise03/feedback.md)

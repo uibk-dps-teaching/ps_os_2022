@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+assert_installed()
+{
+	if ! hash "$1" &> /dev/null; then
+		echo >&2 "$1 not installed"
+		exit 1
+	fi
+}
+
+assert_installed zipinfo
+assert_installed diff
+
+diff --side-by-side --left-column - <(zipinfo -1 "$1" | sed '/\/$/d' | sort -f) <<-EOF && true
+	task1/Makefile
+	task1/solution.txt
+	task1/task1a.c
+	task1/task1b.c
+	task2/Makefile
+	task2/solution.txt
+	task2/task2.c
+	task3/Makefile
+	task3/solution.txt
+	task3/task3.c
+EOF
+
+if [[ $? -eq 0 ]]; then
+	echo -e "\nZip looks good!"
+else
+	echo -e "\nZip does not conform to assignment structure!"
+fi

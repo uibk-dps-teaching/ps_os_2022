@@ -99,10 +99,12 @@ exc06_csXXXXXX.zip
 │   └── task1b.c
 ├── task2/
 │   ├── Makefile
+│   ├── myqueue.h
 │   ├── solution.txt
 │   └── task2.c
 └── task3/
     ├── Makefile
+    ├── myqueue.h
     ├── solution.txt
     └── task3.c
 ```

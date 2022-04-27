@@ -19,9 +19,11 @@ diff --side-by-side --left-column - <(zipinfo -1 "$1" | sed '/\/$/d' | sort -f) 
 	task1/task1a.c
 	task1/task1b.c
 	task2/Makefile
+	task2/myqueue.h
 	task2/solution.txt
 	task2/task2.c
 	task3/Makefile
+	task3/myqueue.h
 	task3/solution.txt
 	task3/task3.c
 EOF

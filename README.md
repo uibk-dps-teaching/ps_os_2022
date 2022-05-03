@@ -19,6 +19,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2022-04-06 | [4](exercise04) | Permissions, pipes            |                |
 | 2022-04-27 | [5](exercise05) | Shared memory, message queues |                |
 | 2022-05-04 | [6](exercise06) | Threads, mutexes, cond vars   |                |
+| 2022-05-11 | [7](exercise07) | Atomics, barriers             |                |
 
 ## Guidelines
 

@@ -165,6 +165,7 @@ exc08_csXXXXXX.zip
     └── task3.c
 ```
 
+- [ ] Read and understand [Exercise Sheet 5 Feedback](../exercise05/feedback.md)
 - [ ] Read and understand [Exercise Sheet 6 Feedback](../exercise06/feedback.md)
 - [ ] Check that your solution conforms to the guidelines given in these feedback documents
 - [ ] Run solutions using `valgrind` where applicable

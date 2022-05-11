@@ -9,6 +9,11 @@ Now, spawn 50000 POSIX threads.
 Each thread decrements the variable by `1` and then exits.
 The _main thread_ waits for all threads to finish and prints the final value of `counter`.
 
+**Notes:**
+
+- Make sure to check the return values of `pthread_create` and `pthread_join`.
+- It might happen that you cannot spawn `50000` threads on your system, in which case reduce the number of threads to something that works.
+
 ### Task 1b
 
 We now want to repeat the same calculation without the overhead of creating 50000 separate threads.

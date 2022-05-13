@@ -161,13 +161,16 @@ exc08_csXXXXXX.zip
 ├── task1/
 │   ├── Makefile
 │   ├── solution.txt
-│   └── task1.c
+│   ├── task1.c
+│   └── [*.h]
 ├── task2/
 │   ├── Makefile
-│   └── task2.c
+│   ├── task2.c
+│   └── [*.h]
 └── task3/
     ├── Makefile
-    └── task3.c
+    ├── task3.c
+    └── [*.h]
 ```
 
 - [ ] Read and understand [Exercise Sheet 5 Feedback](../exercise05/feedback.md)

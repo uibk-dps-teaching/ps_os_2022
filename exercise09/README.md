@@ -114,15 +114,18 @@ shelly (whispers): hey dude
 exc09_csXXXXXX.zip
 ├── task1/
 │   ├── Makefile
-│   ├── task1.c
+│   ├── client.c
+│   ├── server.c
 │   └── [*.h]
 ├── task2/
 │   ├── Makefile
-│   ├── task2.c
+│   ├── client.c
+│   ├── server.c
 │   └── [*.h]
 └── task3/
     ├── Makefile
-    ├── task3.c
+│   ├── client.c
+│   ├── server.c
     └── [*.h]
 ```
 

@@ -23,6 +23,7 @@ Note that exercises associated with a given date are to be discussed on that day
 | 2022-05-18 | [8](exercise08)  | Thread pools, TCP sockets     |                |
 | 2022-05-25 | [9](exercise09)  | Chat                          |                |
 | 2022-06-01 | [10](exercise10) | Memory Management             |                |
+| 2022-06-08 | [10](exercise11) | Linking                       |                |
 
 ## Guidelines
 
